@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder>
+<name>edges_projected_wgs84</name>
+<Schema name="edges_projected_wgs84" id="edges_projected_wgs84">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="SID" type="float"></SimpleField>
+	<SimpleField name="SOURCE" type="float"></SimpleField>
+	<SimpleField name="TARGET" type="float"></SimpleField>
+	<SimpleField name="DIRECTION" type="float"></SimpleField>
+</Schema>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edges_projected_wgs84">
+		<SimpleData name="SID">10285</SimpleData>
+		<SimpleData name="SOURCE">235</SimpleData>
+		<SimpleData name="TARGET">243</SimpleData>
+		<SimpleData name="DIRECTION">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>18.062857877108385,59.330049963240143 18.06305453500002,59.330100436508836</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edges_projected_wgs84">
+		<SimpleData name="SID">10141</SimpleData>
+		<SimpleData name="SOURCE">137</SimpleData>
+		<SimpleData name="TARGET">136</SimpleData>
+		<SimpleData name="DIRECTION">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>18.059454191985438,59.32827697263086 18.059303346212115,59.328387339590776</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edges_projected_wgs84">
+		<SimpleData name="SID">10142</SimpleData>
+		<SimpleData name="SOURCE">74</SimpleData>
+		<SimpleData name="TARGET">137</SimpleData>
+		<SimpleData name="DIRECTION">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>18.05969918913452,59.328148065118576 18.059454191985438,59.32827697263086</coordinates></LineString>
+  </Placemark>
+</Folder></Document></kml>
